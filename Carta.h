@@ -15,7 +15,7 @@ class Carta{
     string getValor();
     // funciones
     void mostrarCarta() const;
-   // void nuevaCarta(string, string, int);
+   // void nuevaCarta(string, string, int); //modificado const
 };
 
 #endif // CARTAS_H

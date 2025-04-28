@@ -9,8 +9,8 @@ using namespace std;
 
 int main() {
     // Crear cartas iniciales
-    Carta carta1(" As", " Corazones");
-    Carta carta2(" 10", " Diamantes");
+    Carta carta1("As", "Corazones");
+    Carta carta2("10", "Diamantes");
 
     // Crear jugador con cartas iniciales, dinero y apuesta
     vector<Carta> manoJugador = {carta1, carta2};
@@ -37,8 +37,8 @@ int main() {
     jugador1.recibirCarta(nuevaCarta);
 
     // Mostrar mano actual del jugador
-    cout << "Mano del jugador después de recibir la carta:\n";
-    for (const Carta &carta : manoJugador) {
+    cout << "Mano actual del jugador despues de recibir la carta:\n";
+    for (const Carta &carta : jugador1.getMano()) {
         carta.mostrarCarta();
     }
 

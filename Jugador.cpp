@@ -9,13 +9,20 @@ Jugador::Jugador(string _nombre, vector<Carta> _manoJugador, int _dinero, int _a
     dinero = _dinero;
     apuesta = _apuesta;
 }
+
+//implementacion del getter
 string Jugador::getNombre() {
     return nombre;
 }
 
-// Implementación del getter getDinero
+// Implementación del getter
 int Jugador::getDinero() {
     return dinero;
+}
+
+// Implementación del getter
+vector<Carta>& Jugador::getMano() {
+    return manoJugador;
 }
 
 void Jugador:: mostrarMano(){

@@ -12,9 +12,10 @@ class Jugador{
     int dinero;
     int apuesta;
   public:
-
+    //agregamos estos getters
     string getNombre();
     int getDinero();
+     vector<Carta>& getMano(); // Método para obtener la mano del jugador para que así se pueda ir actualizando mas facil creo yo
 
     Jugador(string, vector<Carta>, int, int); // recibe (Nombre, Carta, dinero actual, dinero apostado)
     void mostrarMano();

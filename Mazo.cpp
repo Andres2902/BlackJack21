@@ -21,7 +21,7 @@ Mazo::Mazo(){
                     puntos = std::stoi(valor);
                 }
 
-                Carta nuevaCarta(palo, valor);
+                Carta nuevaCarta(palo, valor); //modificado
                 mazo.push_back(nuevaCarta);
             }
         }
