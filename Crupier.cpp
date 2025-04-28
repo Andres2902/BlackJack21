@@ -21,7 +21,7 @@ void nuevoJuego(){
 }
 void decirGanadores(){
 }
-void mezclarMazo(){ 
+void mezclarMazo(){
 }
 
-//Esta funcion es solo para dar las cartas que los jugadores piden, no para la primera reparticion que ya la hace 
+//Esta funcion es solo para dar las cartas que los jugadores piden, no para la primera reparticion que ya la hace

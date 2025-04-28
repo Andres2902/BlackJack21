@@ -12,7 +12,7 @@ using namespace std;
 
 class Administrador{
 private:
-  vector<Jugador> jugadores; //este vector se hace por si logramos que sean mas de 1, sino serÃ­a un solo jugador de la clase Jugador
+  vector<Jugador> jugadores; //este vector se hace por si logramos que sean mas de 1, sino sería un solo jugador de la clase Jugador
 public:
   Administrador(vector<Jugador>);
   void agregarJugador();

@@ -12,9 +12,9 @@ class Carta{
   public:
     Carta(string, string);// constructor
     //getters
-    string getValor();   
-    // funciones 
-    void mostrarCarta();
+    string getValor();
+    // funciones
+    void mostrarCarta() const;
    // void nuevaCarta(string, string, int);
 };
 

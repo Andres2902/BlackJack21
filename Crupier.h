@@ -9,12 +9,12 @@ using namespace std;
 
 class Crupier{
   private:
-  //  Mazo mazoJuego;   //Este mazo no me convence, porque ya definÃ­ el mazo en la clase Mazo, y al repartir lo uso desde ahÃ­
+  //  Mazo mazoJuego;   //Este mazo no me convence, porque ya definí el mazo en la clase Mazo, y al repartir lo uso desde ahí
     vector<Carta> manoCrupier;
   public:
     Crupier(/*Mazo, */vector<Carta>);
     void recibirCarta(Carta);
-    void repartirCarta(); 
+    void repartirCarta();
     void ofrecerCartas();
     void mostarManoParcial();
     void mostrarManoCompleta();

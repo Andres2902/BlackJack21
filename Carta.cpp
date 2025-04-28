@@ -10,10 +10,8 @@ Carta::Carta(string _valor, string _palo){
 string Carta::getValor(){
   return valor;
 }
-void Carta::mostrarCarta(){ //Esta funciÃ³n debe mostrar la carta en la consola, se debe usar siempre que se use la funcion darCarta(), excepto en una de las cartas que se le da a crupier, ya que es oculta. Al ir finalizando la ronda el curpier debe hacer uso de esta funciÃ³n para mostrar la carta que le falta.
+void Carta::mostrarCarta()const{ //Esta función debe mostrar la carta en la consola, se debe usar siempre que se use la funcion darCarta(), excepto en una de las cartas que se le da a crupier, ya que es oculta. Al ir finalizando la ronda el curpier debe hacer uso de esta función para mostrar la carta que le falta.
     cout<<palo<<endl;
-    cout<<valor; //No se si mostrarlo asÃ­ directamente o con texto introductorio, si el juego es en la consola se muestra asÃ­, tambiÃ©n depende de si hacemos la opciÃ³n de hacer la interfaz grÃ¡fica. 
+    cout<<valor; //No se si mostrarlo así directamente o con texto introductorio, si el juego es en la consola se muestra así, también depende de si hacemos la opción de hacer la interfaz gráfica.
 }
-// void Carta::nuevaCarta(){
-     
- }
+// void Carta::nuevaCarta(){}
